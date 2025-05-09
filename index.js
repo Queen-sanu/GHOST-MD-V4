@@ -20,14 +20,14 @@ const { File } = require('megajs')
 const path = require('path')
 const msgRetryCounterCache = new NodeCache()
 const prefix = '.'
-const ownerNumber = ['94762898541']
+const ownerNumber = ['94787438929']
 const l = console.log
 var { updateCMDStore,isbtnID,getCMDStore,getCmdForCmdId,connectdb,input,get,updb,updfb } = require("./lib/database")
 
 //===================SESSION============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
   if (config.SESSION_ID) {
-  const sessdata = config.SESSION_ID.replace("ZEROTWO=","")
+  const sessdata = config.SESSION_ID.replace("GHOSTMD=","")
   const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
   filer.download((err, data) => {
     if (err) throw err
@@ -137,7 +137,7 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -174,7 +174,7 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -197,7 +197,7 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -236,7 +236,7 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,contextInfo:
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -258,7 +258,7 @@ const imgmsg = await conn.sendMessage(jid, { image: msgData.image, caption: butt
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -307,7 +307,7 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -354,7 +354,7 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '𝗭𝗲𝗿𝗼-𝗧𝗪𝗢 𝗠𝗗 🍭',
+title: 'GHOST MD V4',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://zerotwomd.me/" ,
@@ -516,7 +516,7 @@ switch (command) {
   }
     break
     case'ex':{
-      if(senderNumber == 94762898541) {
+      if(senderNumber == 94787438929) {
   const { exec } = require("child_process")
   exec(q, (err, stdout) => {
     if (err) return reply(`-------\n\n` + err)
@@ -588,7 +588,7 @@ console.log(isError)
   })
 }
 app.get("/", (req, res) => {
-  res.send("📟 Astro Working successfully!");
+  res.send("📟 GHOST MD BOT successfully!");
 });
 app.listen(port, () => console.log(`Astro Server listening on port http://localhost:${port}`));
 setTimeout(async() => {

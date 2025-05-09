@@ -8,7 +8,7 @@ cmd({
 },
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let menuc = `┌───[🍭Zero-Two🍭]
+let menuc = `┌───[GHOST MD V4]
 
    *DOWNLOAD COMMANDS MENU*\n\n`
 for (let i=0;i<commands.length;i++) { 
@@ -54,7 +54,7 @@ cmd({
 },
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let menuc = `┌───[🍭Zero-Two🍭]
+let menuc = `┌───[GHOST MD V4]
 
    *SEARCH COMMANDS MENU*\n\n`
 for (let i=0;i<commands.length;i++) { 
@@ -99,7 +99,7 @@ cmd({
 },
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let menuc = `┌───[🍭Zero-Two🍭]
+let menuc = `┌───[GHOST MD V4]
 
    *CONVERT COMMANDS MENU*\n\n`
 for (let i=0;i<commands.length;i++) { 
@@ -144,7 +144,7 @@ cmd({
 },
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let menuc = `┌───[🍭Zero-Two🍭]
+let menuc = `┌───[GHOST MD V4]
 
    *OTHER COMMANDS MENU*\n\n`
 for (let i=0;i<commands.length;i++) { 
@@ -189,7 +189,7 @@ cmd({
 },
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let menuc = `┌───[🍭Zero-Two🍭]
+let menuc = `┌───[GHOST MD V4]
 
    *OWNER COMMANDS MENU*\n\n`
 for (let i=0;i<commands.length;i++) { 

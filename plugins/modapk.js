@@ -54,9 +54,9 @@ title: "_[Result from androidapksfree.]_",
 rows: srh
 }]
 const listMessage = {
-text: `┌───[🍭Zero-Two🍭]
+text: `┌───[GHOST MD V4]
 
-   *MOD APK DOWNLOADER*
+   *GHOST MD MOD APK DOWNLOADING...*
 
 *📱 Enterd Name:* ${q}`,
 footer: config.FOOTER,

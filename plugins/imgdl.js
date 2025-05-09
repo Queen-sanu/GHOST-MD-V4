@@ -57,9 +57,9 @@ title: "Result from google. 📲",
 rows: srh
 }]
 const listMessage = { 
-text: `┌───[🍭Zero-Two🍭]
+text: `┌───[GHOST MD V4]
 
-   *IMG DOWNLOADER 01*
+   *GHOST MD IMG DOWNLOADING 01*
 
 *🖼️ Image Name:* ${q}`,
 footer: config.FOOTER,
@@ -103,9 +103,9 @@ title: "Result from unsplash.com. 📲",
 rows: srh
 }]
 const listMessage = { 
-text: `┌───[🍭Zero-Two🍭]
+text: `┌───[GHOST MD V4]
 
-   *IMG DOWNLOADER 02*
+   *GHOST MD IMG DOWNLOADING 02*
 
 *🖼️ Image Name:* ${q}`,
 footer: config.FOOTER,
@@ -149,9 +149,9 @@ title: "Result from pixabay.com. 📲",
 rows: srh
 }]
 const listMessage = { 
-text: `┌───[🍭Zero-Two🍭]
+text: `┌───[GHOST MD V4]
 
-   *IMG DOWNLOADER 03*
+   *GHOST MD IMG DOWNLOADING 03*
 
 *🖼️ Image Name:* ${q}`,
 footer: config.FOOTER,
@@ -196,9 +196,9 @@ title: "Result from bing 📲",
 rows: srh
 }]
 const listMessage = { 
-text: `┌───[🍭Zero-Two🍭]
+text: `┌───[GHOST MD V4]
 
-   *IMG DOWNLOADER 04*
+   *GHOST MD IMG DOWNLOADING 04*
 
 *🖼️ Image Name:* ${q}`,
 footer: config.FOOTER,

@@ -50,9 +50,9 @@ l = data
 }
 
 
-let dat = `┌───[🍭Zero-Two🍭]
+let dat = `┌───[GHOST MD V4]
 
-*TIKTOK DOWNLOADER*
+*GHOST MD TIKTOK DOWNLOADING...*
 
 *📃 Title:* ${l.title}
 *✍🏼 Author:* ${l.author}`

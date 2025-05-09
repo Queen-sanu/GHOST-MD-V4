@@ -91,7 +91,7 @@ rowId: '.antibot off'
 const listMessage = {
 text: `┌───[🍭Zero-Two🍭]
 
-     *GROUP SETTINGS*
+     *GHOST MD GROUP SETTINGS*
 
 _Select setting what you want to On or Off.._`,
 footer: config.FOOTER,
@@ -142,7 +142,7 @@ rowId: '.lang SI'
 ]}
 ]
 const listMessage = {
-text: `┌───[🍭Zero-Two🍭]
+text: `┌───[GHOST MD V4]
 
      *BOT\'S SETTINGS*
 
@@ -198,7 +198,7 @@ rowId: '.alivemg ' + q
 title: "Footer Text / Caption",
 rows: [{
 title: 'DEFAULT 🎲',
-rowId: '.footertxt ©𝚉𝙴𝚁𝙾-𝚃𝚆𝙾 𝙼𝙳'
+rowId: '.footertxt ©GHOST 𝙼𝙳'
 },
 {
 title: 'NEW 🌱',

@@ -28,7 +28,7 @@ const buttonMessage = {
     image: {url: config.LOGO},
     caption: `${monspace}👋 Hello ${pushname} I'm alive now${monspace}
 
-*👾 Im Zero-Two MD whatsapp bot*
+*GHOST MD V4*
     
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
@@ -110,7 +110,7 @@ const buttonMessage = {
   image: {url: config.LOGO},
   caption: `${monspace}👋 Hello ${pushname}${monspace}
 
-*👾 Zero-Two MD commands menu...*
+*GHOST MD V4 COMMANDS MENU*
   
 > *Version:* ${require("../package.json").version}
 > *Memory:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB

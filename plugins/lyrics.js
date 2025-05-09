@@ -27,9 +27,9 @@ try{
 if(!q) return reply(tmsg)
 const result = await fetchJson('https://api.sdbots.tech/lyrics?song=' + q)
 if(result.lyrics) reply(`
-┌───[🍭Zero-Two🍭]
+┌───[GHOST MD V4]
 
-   *LYRICS SEARCH*
+   *GHOST MD LYRICS DOWNLOADING...*
    
 *${result.title}*
 _${result.artist}_
